@@ -1,0 +1,13 @@
+name: timedbans
+main: com.c45y.timedbans.TimedBans
+version: ${project.version}
+author: C45Y
+
+permissions:
+  timedbans.staff:
+    description: Add/Remove a ban on a player
+    default: op
+  
+commands:
+  tban:
+    description: Ban a player for a duration of time
